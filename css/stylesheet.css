@@ -69,3 +69,19 @@ footer
 	float: right;
 	margin: 55px 15px 15px 15px;
 }
+
+input
+{
+	width: 30%;
+}
+
+input[name="textbox"]
+{
+	height: 250px;
+}
+
+input[type="submit"]
+{
+	width:150px;
+	height:50px;
+}

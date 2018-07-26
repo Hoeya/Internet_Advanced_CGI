@@ -1,10 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-		<!--Font for website. -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
-		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-
 		<!--Declare the character set for the document to use. Using UTF-8. -->
 		<meta charset="utf-8"/>
 		
@@ -18,14 +14,8 @@
 
 	<!--Start of the header-->
 		<main>
-			<header>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="files/resumeJBennett.pdf">Resume</a></li>
-					<li><a href="mailto:justin.a.bennett@usm.edu">Contact</a></li>
-					<li><a href="http://www.linkedin.com/in/justin-bennett-a1103a168">LinkedIn</a></li>
-				</ul>
-			</header>
+		<?php include "php/header.php"?>
+		<?php include "php/footer.php"?>
 			<div id="left">
 				<h1>About Me</h1> 
 					<p>Justin Bennett is currently a student at the University of Southern Mississippi Gulf Coast campus studying in the field of Computer Science. I've had experience programming in C, C++, Java, Javascript, and PHP, as well as working on several projects for the college at the undergraduate level.</p>
@@ -37,10 +27,6 @@
 			<div id="right">
 				<img src="img/Lofty_return2_5.jpg" height="700" alt="There is supposed to be an image here.">
 			</div>
-
-			<footer>
-				<em>Website by Justin Bennett, 2018</em>
-			</footer>
 		</main>
 	</body>
 </html>
